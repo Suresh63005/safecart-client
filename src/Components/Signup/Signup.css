@@ -1,0 +1,24 @@
+.single-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: -5px 0 0;
+}
+.custom__form .form-group:not(:last-child) {
+    margin-bottom: 24px;
+    padding: 0 !important;
+}
+.signin__account__para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.signin__account__para .active, label.form-check-label .text-active {
+    color: #006045 !important;
+}

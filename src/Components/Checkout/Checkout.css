@@ -1,0 +1,170 @@
+.checkoutpage{
+    margin-top: 90px;
+}
+
+
+.clickheretologin{
+    font-size: 22px;
+    font-weight: 500;
+    color: #666666;
+}
+.clickheretologin a{
+    color:#198754 ;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.billingdetailsform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.billingdetailsform .form-group label{
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.ordersummary{
+    background-color: #f7f7f7;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.itemstotal{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.itemstotal div:nth-child(1){
+font-size: 18px;
+font-weight: 400;
+}
+.itemstotal div:nth-child(2){
+    font-size: 16px;
+    font-weight: 700;
+}
+hr{
+   
+    color: grey;
+    opacity: 0.1;
+
+}
+.paymentcards{
+    
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    
+    flex-wrap: wrap;
+}
+.paymentcards ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.paymentcards ul li {
+    
+    margin: 5px;
+    max-width: 95px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.img-select img{
+    width: 100%;
+}
+.checkoutproducts{
+    margin-top: 20px;
+}
+.checkoutproducts{
+    background-color: #f7f7f7;
+    border: 1px solid lightgray;
+}
+.checkoutpro-header{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 0px 10px 10px;
+    border-bottom: 1px solid lightgray;
+}
+.checkoutpro-details{
+    height: 150px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.checkoutpro-img img{
+    width: 100%;
+    height: 100px;
+}
+.checkoutpro-title{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.checkoutpro-qnty{
+    font-size: 20px;
+}
+.checkoutpro-price{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.shippingcost{
+    margin-top: 10px;
+    
+}
+
+.shippingcost h4{
+margin-left:20px ;
+}
+.shippingcostption1{
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #666666;
+}
+.standard{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.standard div:nth-child(1){
+    font-size: 18px;
+    font-weight:500 ;
+}
+.standardshippingprice{
+    font-weight: 500;
+}
+.checkproductsubtotal{
+    display: flex;
+    justify-content: end;
+    gap: 60px;
+    padding: 10px;
+    color: #666666;
+}
+.subtotal-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.subheadingoption{
+    font-size: 19px;
+    font-weight: 700;
+}

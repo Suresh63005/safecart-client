@@ -1,0 +1,125 @@
+.shoppage{
+    margin-top: 100px;
+    
+}
+.shoppage-actionbuttons{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.shoppageimg{
+    border: 15px solid #f9f9f9;
+}
+.shoppageduplicateimg{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+.shoppagequantity{
+    display: flex;
+   
+    align-items: center;
+    gap: 15px;
+}
+.shoppagetitle{
+    font-size: 30px;
+    font-weight: 700;
+}
+.shoppage-price{
+    font-size: 25px;
+    font-weight: 500;
+    color: green;
+}
+.shoppage-price span{
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+}
+.shoppage-shippingpage{
+    font-size: 14px;
+}
+.shoppagequantity div:nth-child(3){
+    color: green;
+}
+.shoppage-paymentmethods{
+    font-size: 18px;
+    font-weight: 400;
+}
+.shoppage-category{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -60px;
+}
+.shoppage-category span{
+    font-size: 18px;
+    font-weight: 400;
+    color: grey;
+}
+.shoppagepayment{
+    border: 2px solid #f0f0f0;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.shoppagedelivery{
+    border: 1px solid #f0f0f0;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.deliveryicon{
+    display: flex;
+    gap: 10px;
+}
+.deliveryicon svg{
+    font-size: 18px;
+    color: darkgreen;
+}
+.deliverytitle{
+    font-size:15px;
+    font-weight: 500;
+}
+.deliverytime{
+    margin-top: 5px;
+    color: grey;
+}
+.shoppage-socialmedia{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+}
+
+.shoppage-socialmedia div:nth-child(1){
+    font-size: 20px;
+    font-weight: 500;
+}
+.shoppage-socialmediaicons{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.sp_icons svg{
+    color: grey;
+}
+.shoppageaddtocart:active{
+    background-color: white !important;
+    color: green;
+}
+.shoppagewishlist:active{
+    background-color: #198754 !important;
+    color: white !important;
+}

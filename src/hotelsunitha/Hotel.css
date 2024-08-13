@@ -1,0 +1,126 @@
+.hotel{
+    margin-top: 10px;
+}
+.hotelcomfirmmsg1 {
+    display: flex;
+    color: #000435;
+}
+.hotelcomfirmmsg1 h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:15px;
+
+}
+.hotelcomfirmmsg1 span{
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: bold;   
+    
+}
+.hotelcomfirmmsg2{
+    font-weight: 500;
+}
+.comfirmdetails{
+    padding: 20px;
+    border:1px solid #f1f1f1;
+    /* box-shadow: 3px 3px 3px 3px grey; */
+    border-radius: 5px;
+}
+
+.bookingNumber{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.bookingNumber p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.comfirmimg {
+    background-image: url(../assets/beach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 5px;
+    height: 350px;
+
+}
+.bookingnoinfo{
+    display: flex;
+    flex-direction:column ;
+    gap: 190px;
+    color: white;
+    
+    
+}
+.checkouttimings{
+    display: flex;
+    gap: 20px;
+}
+.comfirmdetailscontent .list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    border: 1px  solid grey;
+}
+.comfirmdetailscontent{
+    display: flex;
+    margin-top: 2px;
+    gap: 1px;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.comfirmdetailscontent-head{
+    display: flex;
+    justify-content: center;
+    width: 255px;
+    font-weight: 500;
+    padding: 10px 30px;
+    background-color:#000435;  
+    gap: 8px;
+}
+
+.comfirmdetailscontent-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+    
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.hotelmembersinfo{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.adultschild{
+    font-weight: 500;
+    font-size: 18px;
+}
+.adultschild span{
+   font-size: 15px;
+   font-weight: 400;
+   margin-left: 5px;
+}
+
+.cancelationpolicy{
+    margin-top: 20px;
+}
+
+.cancelationpolicy-head{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.cancelationpolicy p{
+    font-weight: 500;
+}

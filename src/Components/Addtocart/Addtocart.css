@@ -1,0 +1,91 @@
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .addtocart-main-div{
+    animation: fadeIn 1s ease-in-out;
+  }
+
+.carttable{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    overflow: inherit;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+}
+.noproducts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.noproducts .noproductstitle{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.addtocartimgtitle{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 10px;
+}
+.adddeletebtn{
+background: red;
+display: flex;
+justify-content: center;
+width: 55px;
+height: 35px;
+border-radius: 5px;
+color: white;
+}
+.adddeleteicon svg{
+    color: white;
+    margin-top: -11px;
+    font-size: 20px;
+}
+.addwishicon svg{
+    color: white;
+    margin-top: -11px;
+    font-size: 20px;
+}
+.addwishbtn{
+    background: #0088dd;
+    display: flex;
+    justify-content: center;
+    width: 55px;
+    border-radius: 5px;
+    color: white; 
+    height: 35px;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.checkoutbtn{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #198754;
+    padding: 10px 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}

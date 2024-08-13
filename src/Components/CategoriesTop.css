@@ -1,0 +1,131 @@
+
+.section_title.section_borderBottom {
+    border-bottom: 1px solid rgba(221,221,221,.4);
+    padding-bottom: 20px;
+}
+.section_title.text-left {
+    text-align: left;
+}
+.section_title {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section_title .title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #1b1c25!important;
+    margin: -6px 0 0;
+}
+.append_category {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 12px;
+}
+.append_category .prev-icon, .append_category .next-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color:#fff;
+    color: #1b1c25!important;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.append_category .next-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    color: #1b1c25!important;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.slider-inner-margin .slick-slide {
+    margin: 12px;
+}
+
+.slick-slide {
+    
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    margin-left: 20px;
+}
+
+/* .single_category.text-center .single_category_thumb {
+    margin-inline: -40;
+} */
+.category_slider{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.single_category_thumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 110px;
+    width: 110px;
+    background-color:#f7f7f7;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.single_category_thumb img {
+    width: 80%;
+}
+.single_category_title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #1b1c25!important;
+    margin-right: 15px;
+}
+.slick-slide a{
+    text-decoration: none;
+}

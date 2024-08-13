@@ -1,0 +1,85 @@
+.about2{
+    background-color: rgb(247,247,247);
+    height: 180px;
+ }
+ .about3{
+    padding-top: 40px;
+    margin-left: 700px;
+ }
+ .about4{
+     margin-left: 730px;
+     color: rgb(153,153,153);
+  }
+  .aboutpcolor{
+    color: rgb(153,153,153);
+    margin-top: 20px;
+  }
+  .aboutmargintop1{
+    margin-top: 80px;
+  }
+  .aboutimg1{
+    margin-left: 30px;
+  }
+  .aboutmargintop2{
+    margin-top: 100px;
+  }
+  .aboutp2{
+   margin-top: 40px;
+  }
+  .aboutmargintop3{
+    margin-top: 100px;
+  }
+  .truck{
+    display: flex;
+  }
+  .trucksize{
+    font-size: 50px;
+    color: green;
+  }
+  .truckmargintop{
+    margin-top: 50px;
+  }
+  .truckp{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .aboutsubmargintop{
+    margin-top:30px;
+  }
+  .aboutimg3{
+    margin-left: 30px;
+  }
+  .aboutmargintop4{
+    margin-top: 100px;
+  }
+  .aboutclient1{
+    background-color: rgb(242,243,245);
+    height: 160px;
+    padding: 20px 20px 40px 30px;
+  }
+  .aboutclient1green{
+    background-color: rgb(0,96,69);
+    height: 160px;
+    padding: 20px 20px 40px 30px;
+  }
+  .vv{
+    position: relative;
+     margin-top: 50px;
+  }
+  .aboutclient11{
+    /* background-color: rgb(242,243,245); */
+    height: 160px;
+   
+    padding: 50px 20px 40px 120px;
+    color: rgb(153,153,153);
+  }
+  .clientboxshadow{
+    box-shadow: 2px 2px 5px rgb(222, 219, 219),2px -2px 5px rgb(222, 219, 219),-2px 2px 5px rgb(222, 219, 219),-2px -2px 5px rgb(222, 219, 219);
+    border-radius: 10px;
+   
+  }
+  .client1position{
+   position: absolute;
+   top: 120px;
+  left: 170px;
+  }

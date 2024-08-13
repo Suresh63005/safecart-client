@@ -1,0 +1,115 @@
+.winter_bg1 {
+    background-color: #e0f5ff;
+}
+.winterProduct_contents{
+    margin: 0px 0px 40px 40px;
+} 
+@media (min-width: 1200px) and (max-width: 1399.98px){
+.winterProduct_contents {
+    padding: 55px 0 55px 50px;
+}}
+
+.winterProduct_subtitle {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2f4fff;
+}
+.winterProduct_title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #2f4fff;
+}
+.winterProduct_list_item {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2f4fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+.winterProduct_list_item::before {
+    content: "\2713";
+    font-family: line awesome free;
+    font-weight: 400;
+    -ms-flex-negative: 0;
+    flex-shrink: 0; 
+}
+.cmn_btn.btn_bg_3 {
+    background: #2f4fff;
+    color:#fff ;
+    border: 2px solid #2f4fff;
+}
+.cmn_btn {
+    
+    font-size: 16px;
+    font-weight: 500;
+    font-family:  sans-serif;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 12px 30px;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    box-shadow: 0 0 20px #6a6a6a5c;
+}
+.btn_wrapper a{
+    color: white;
+}
+.winterProduct_thumb img{
+   max-width: 100%;
+}
+.winter_bg2 {
+    background-color: #fce6df;
+}
+.winterProduct_single_contents {
+    padding: 40px 0;
+}
+.winterProduct_single_contents_title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #1b1c25!important;
+    text-transform: uppercase;
+}
+.cmn_btn.btn_bg_2 {
+    background: #0088dd;
+    color: #fff;
+    border: 2px solid #0088dd ;
+    margin-left:20px ;
+}
+.winterProduct_single_thumb{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.winterProduct_single_thumb img {
+    max-width: 100%;
+}
+.winter_bg3 {
+    background-color: rgba(243,245,101,.2);
+}
+.winterProduct_single_contents {
+    padding: 40px 0;
+}
+.winterProduct_single_contents_title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:#1b1c25!important;
+    text-transform: uppercase;
+}
+.cmn_btn.btn_bg_black {
+    background: #1b1c25!important;
+    color: #fff;
+    border: 2px solid #1b1c25!important;
+}

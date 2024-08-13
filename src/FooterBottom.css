@@ -1,0 +1,211 @@
+.white-color {
+    color: #fff;
+}
+.homeFour-bg {
+    background-color: #006045;
+}
+.footer-top-border {
+    border-bottom: 1px solid #ddd;
+}
+.padding-bottom-80 {
+    padding-bottom: 80px;
+}
+.padding-top-55 {
+    padding-top: 55px;
+}
+.footer-widget {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-widget .widget-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: capitalize;
+    position: relative;
+    font-family: var(--heading-font);
+    color: white;
+}
+
+.footer-logo-wrapper {
+    max-width: 200px;
+}
+.footer-widget .footer-inner .footer-logo {
+    text-align: center;
+    max-width: 100%;
+
+}
+.footer-four.white-color .footer-widget .footer-inner .widget-para {
+    color: #e2e2e2;
+}
+.footer-four .footer-widget .footer-inner .footer-social-list {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.footer-widget .footer-inner .footer-social-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+}
+.footer-four.white-color .footer-widget .footer-inner .footer-social-list .lists a {
+    color:#1b1c25!important;
+}
+.footer-social-list {
+    list-style: none;
+}
+.footer-social-list .lists a {
+    background-color: #FDDE67;
+    border-radius: 0;
+    color: #1b1c25!important;
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+}
+
+.footer-widget .footer-inner .footer-social-list li:not(:last-child) a {
+    margin-right: 10px;
+}
+.footer-widget .footer-inner .footer-social-list li a {
+    color: #1b1c25!important;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background: #FDDE67;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+   
+}
+a, a:hover{
+    text-decoration: none;
+}
+.footer-link-list{
+    padding: 0;
+    list-style: none;
+}
+.footer-link-list li {
+    position: relative;
+    z-index: 2;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    padding-bottom:10px ;
+}
+.footer-link-list li a {
+    color: #fff;
+}
+.footer-link-list li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    position: relative;
+    z-index: 1;
+}
+.footerWidget{
+    margin-left: 15px;
+}
+.footer-link-address {
+    padding: 0;
+}
+.footer-link-address li{
+   list-style: none;
+   margin-bottom: 20px;
+   
+}
+.footer-link-address li a{
+    color: white;
+    font-size: 17px;
+}
+.address svg{
+    color: #fff;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.subscribe-form {
+    margin-top: 30px;
+}
+.subscribe-form .widget-form-single {
+    position: relative;
+    max-width: 255px;
+}
+.subscribe-form .widget-form-single .form-control {
+    -webkit-box-shadow: 0 0 10px rgba(var(--white-rgb),0.1);
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+.subscribe-form .widget-form-single .form-control {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 5px;
+    background: #fff;
+    color: #666666!important;
+    border: 1px solid #fff;
+    padding: 0 60px 0 20px;
+    -webkit-box-shadow: 0 0 20px rgba(255,255,255,.3);
+    box-shadow: 0 0 20px rgba(255,255,255,.3);
+}
+.widget-form-single button {
+    background: #006045!important;
+}
+.widget-form-single button {
+    outline: none;
+    border: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 45px;
+    width: 50px;
+    background:#006045!important;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    margin: 5px;
+    cursor: pointer;
+}
+.widget-form-single button svg{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 6px;
+}
+.widget-form-single input{
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+}
+.widget-form-single input::placeholder{
+    padding-left: 15px;
+}
+.copyright-border {
+    border-color: rgba(225,225,225,0.2);
+}
+.copyright-contents {
+    color: rgba(225,225,225,0.7);
+}
+.copyright-contents {
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+}
+.copyright-contents a{
+    margin-left: 5px;
+    color: rgba(225,225,225,0.7); 
+}

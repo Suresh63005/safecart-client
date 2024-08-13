@@ -1,0 +1,273 @@
+.yellow1{
+  background-color: rgb(253,222,103);
+  height: 700px;
+  width: 100%;
+}
+
+.homepage1shirt{
+   height: 700px;
+   margin-top: 40px;
+   /* margin-left: 400px; */
+}
+.homepage1text{
+   font-size: 60px;
+   margin-top: 160px;
+   /* margin-left: 100px; */
+}
+.homepage1text1{
+   font-size: 60px;
+   margin-left: 100px;
+}
+.homepage1cost{
+   text-align: start;
+   margin-top: 50px;
+   margin-left: 100px;
+}
+.shopnowgreen{
+   margin-left: -200px;
+   margin-top: 20px;
+   border-radius: 1px;
+   padding: 15px;
+   width: 150px;
+   background-color: #006045;
+   border: none;
+   color: white;
+}
+.shopnowyellow{
+   /* margin-left: -280px; */
+   margin-top: 20px;
+   border-radius: 1px;
+   padding: 13px;
+   width: 150px;
+   color:#006045 ;
+   border: 2px solid  #006045;
+   background-color: rgb(253,222,103);
+   margin-left: 10px;
+}
+.homepage1choose{
+   text-align: start;
+   margin-top: 30px;
+   
+}
+.homepage1siri1{
+   margin-left: -33px;
+  
+}
+
+
+.p2-relativehome{
+   position: relative;
+}
+.heartticonhome{
+   background-color: white;
+   margin: 10px;
+   padding: 5px;
+}
+.heartticonhome:hover{
+   background-color: green;
+   color: white;
+}
+.product2-percenthome{
+   position: absolute;
+   background-color: rgb(56, 175, 214);
+   width: 20%;
+   color: white;
+   top: 10px;
+   right:10px;
+   padding-left: 5px;
+   font-weight: 600;
+}
+.product2-nahome{
+   position: absolute;
+   background-color: rgb(39, 195, 39);
+   width: 20%;
+   color: white;
+   border-radius: 5px;
+   top: 40px;
+   right:13px;
+   padding-left: 5px;
+   font-weight: 600;
+}
+.fficons1home {
+   position: absolute;
+   translate: 170px -200px;
+   transition: transform 0.6s;
+   opacity: 0;
+}
+.p2-relativehome:hover .fficons1home{
+   transform: translate(-30px, 0px );
+   opacity: 1;
+}
+
+.homepage1choosecat{
+   text-align: center;
+}
+
+.homestyle1{
+   display: flex;
+   background-color: #FDDE67;
+   
+   width: 100%;
+   align-items: center;
+   padding-left: 20px;
+   border-radius: 7px;
+   padding-right: 40px;
+   margin-top: 10px;
+   margin-left: 0px;
+   margin-bottom: 50px;
+   overflow: hidden;
+   
+}
+
+.homestylep1{
+   font-size: 62px;
+   font-weight: 600;
+   display: inline-block;
+   color: #1B1C25;
+   font-family: Roboto, sans-serif;
+   margin-bottom: 40px;
+   margin-left: 100px;
+   line-height: 70px;
+}
+
+.homestylep2{
+   font-size: 32px;
+   font-weight: 600;
+   line-height: 1.1;
+   font-family: Roboto, sans-serif;
+   margin-left: 100px;
+   margin-right: -20px;
+   margin-top: 10px;
+  
+}
+
+.homestylebtn{
+   background-color:#006045;
+   border-radius: 5px;
+   border: none;
+   height: 7vh;
+   width: 150px;
+   color: white;
+   margin-left: 100px;
+   
+}
+
+.homestyleimg1 img{
+   width: 600px;
+   margin-left: 120px;
+   margin-right: -11px;
+   margin-bottom: 20px;
+}
+.pv{
+  display: flex;
+  margin-top: 30px;
+}
+.viewalll{
+  margin-left: 930px;
+}
+.p1{
+  background-color:#f7f7f7;
+}
+.productimg1{
+  height: 200px;
+}
+.price{
+
+  color: #0088DD;
+  font-size: larger;
+ 
+
+}
+.pricebreak{
+   margin-top: -20px;
+}
+
+.price1{
+  font-size: larger;
+  color: #999999;
+}
+.pbut{
+ border: 1px solid #006045;
+ border-radius: 20px; 
+ height: 37px;
+ width: 195px;
+ color: #006045;
+ background-color: white;
+
+}
+.rh{
+  display: flex;
+  margin-top: -10px;
+}
+.retw{
+  border: 1px solid #006045;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+
+  font-size: 25px;
+  border-radius: 30px;
+  color: rgb(60, 58, 58);
+ 
+}
+.retw svg{
+  margin-bottom: 10px;
+  }
+.retw span
+{
+  font-weight: 100;
+}
+.heart{
+margin-left: 20px;
+border: 1px solid #006045;
+height: 40px;
+width: 40px;
+text-align: center;
+padding: 10px ;
+border-radius: 30px;
+
+}
+
+.heart svg{
+margin-bottom: 10px;
+}
+
+.productdetails{
+  margin-top: 50px;
+}
+
+.view{
+  margin-left: 40px;
+}
+
+.hearty{
+  margin-left: 20px;
+  border: 1px solid #006045;
+  height: 40px;
+  background-color: white;
+  width: 40px;
+  
+  /* text-align: start; */
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
+.addtocardwidth{
+  margin-top: 10px;
+  margin-left: 20px
+}
+
+.ail{
+  margin: 29px 2px 3px 4px;
+  height: 198px;
+}
+.ail1{
+  margin-top: 15px;
+}
+.addlinkcart{
+  text-decoration: none;
+  color: #006045;
+}
+.beaulah{
+  color: black;
+}

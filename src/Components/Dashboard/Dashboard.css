@@ -1,0 +1,139 @@
+/* .dashboardmenu{
+    margin-top: 50px;
+} */
+
+.dahsboard{
+    margin-top: 60px;
+}
+
+.dashboard-menu-items{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dashboard-menu-items li{
+    border-bottom: 1px  solid #f0f0f0;
+    padding: 10px 80px 10px 10px;
+    margin: 0px;
+}
+.dashboard-menu-items li:first-child{
+   background-color: #198754 !important;
+   a{
+    color: #fff !important;
+    svg{
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+   }
+}
+
+.user-dashboard-card.style-01 {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.dashboard-menu-items li a{
+    padding: 0px;
+    margin: 0px;
+}
+
+.user-dashboard-card.style-01 .icon {
+    font-size: 43px;
+    color:#fff;
+    margin-right: 26px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #494949;
+    line-height: 87px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.user-dashboard-card.style-01 .icon::before {
+    content: "";
+    position: absolute;
+    border: 10px solid #3d3d3d;
+    width: 123%;
+    height: 123%;
+    border-radius: 50%;
+    left: -9px;
+    z-index: -1;
+    top: -9px;
+}
+.user-dashboard-card.style-01 .icon svg {
+    position: relative;
+    left: 0px;
+    bottom: 8px;
+    font-size: 40px;
+
+}
+.user-dashboard-card .title {
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #fff;
+}
+.user-dashboard-card .number {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+}
+.dashboardaction{
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.user-dashboard-card.style-01::after {
+    content: "";
+    position: absolute;
+    border: 10px solid #3f3f3f;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    z-index: -1;
+    right: -19px;
+    top: -20px;
+    animation: heartbeat 3s infinite alternate;
+}
+@keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+
+    .user-dashboarrd-wrapper{
+        display:flex;
+        flex-direction: column;
+    }
+    .dashboradtable{
+        overflow: scroll;
+    }
+  }
+
+  .dashboardactionbtn{
+    padding: 5px 10px;
+    color: #f7f7f7 !important;
+    font-size: 14px;
+  }
+
+ 
